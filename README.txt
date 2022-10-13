@@ -13,3 +13,6 @@ commit all and push to github..
 for the change and try i change css file and change background color of body and footer.
 test application and success.
 again commit and push to github.
+
+2022-10-13 12:34
+deciding fields for the projects.
