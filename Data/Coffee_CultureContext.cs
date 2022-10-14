@@ -8,9 +8,9 @@ using Coffee_Culture.Models;
 
 namespace Coffee_Culture.Data
 {
-    public class CoffeeBeanContext : DbContext
+    public class Coffee_CultureContext : DbContext
     {
-        public CoffeeBeanContext(DbContextOptions<CoffeeBeanContext> options)
+        public Coffee_CultureContext(DbContextOptions<Coffee_CultureContext> options)
             : base(options)
         {
 

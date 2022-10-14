@@ -30,7 +30,7 @@ namespace Coffee_Culture
             //rvices.AddDbContext<ApplicationDbContext>(options =>
             //options.UseSqlServer(
             //  Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<CoffeeBeanContext>(options =>
+            services.AddDbContext<Coffee_CultureContext>(options =>
 options.UseSqlServer(Configuration.GetConnectionString("CoffeeBeanContext")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

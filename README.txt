@@ -46,3 +46,7 @@ review the appsettings.json file.
 rebuild the application and commit to github.
 push to github, commit all
 1:49am
+
+2022-10-13 8:21
+start building scafolding and i get error in building because i used wrong name in context file.
+after getting error i rename CoffeBeanContext to Coffe_cultureContext.
