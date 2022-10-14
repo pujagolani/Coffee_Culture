@@ -104,3 +104,7 @@ next update index.cshtml to search by roasting to the index view.
 commit to github.
 part-7 done run sucessfully run with drop down list of roasting.
 commit to github
+started Part-8 2:17am
+add rating property in CoffeeBean.cs file save it.
+update the coffeebeancontrollers in bind value, add rating in create and edit.
+Add Rating in seed data, Index.cshtml and movie.cs.

@@ -30,7 +30,8 @@ namespace Coffee_Culture.Models
                         Price = 12.99M,
                         Description_Of_Product = "It is Arabica Coffee, This coffee's origin is Ethopia," +
                         "but now the foremost production Countries are Brazil, Guatemala, Honduras, Columbia and Peru.",
-                        Packaging = "Whole Beans"
+                        Packaging = "Whole Beans",
+                        Rating = 4
 
                     },
 
@@ -42,7 +43,8 @@ namespace Coffee_Culture.Models
                         Roasting = "Lightly Roast",
                         Price = 14.99M,
                         Description_Of_Product = "This Coffee grown in Africa, Indonesia and India it is the second most consumed coffee in world",
-                        Packaging = "Grounded Coffee"
+                        Packaging = "Grounded Coffee",
+                        Rating = 3
                     },
 
                     new CoffeeBean
@@ -53,7 +55,8 @@ namespace Coffee_Culture.Models
                         Roasting = "Sinter Roasting",
                         Price = 09M,
                         Description_Of_Product = "This Coffee grown in Africa and Malasiya, it is not popular Coffee Beans Around the Globe ",
-                        Packaging = "Powedered Coffee"
+                        Packaging = "Powedered Coffee",
+                        Rating = 1
                     },
 
                     new CoffeeBean
@@ -64,7 +67,9 @@ namespace Coffee_Culture.Models
                         Roasting = " Brisket Roast",
                         Price = 10M,
                         Description_Of_Product = "This Coffee grown in Southeast Asia, Vietnam, Philippines and India, This is also not so preffered coffee. ",
-                        Packaging = "Whole Bean Coffee"
+                        Packaging = "Whole Bean Coffee",
+                        Rating = 2
+
                     },
 
                     new CoffeeBean
@@ -76,7 +81,8 @@ namespace Coffee_Culture.Models
                         Price = 11.99M,
                         Description_Of_Product = "This Coffee grown in Tanzania, this coffee is a full bodied coffee with a chocolatry aroma and" +
                         "a Wine-like finish.",
-                        Packaging = "Powdered Coffee"
+                        Packaging = "Powdered Coffee",
+                        Rating = 3
                     },
 
                     new CoffeeBean
@@ -88,7 +94,8 @@ namespace Coffee_Culture.Models
                         Price = 7.99M,
                         Description_Of_Product = "Mocha java is the World's oldest coffee blend, combining two of the best premium coffee beans with complementary" +
                         "tasting type.",
-                        Packaging = "Grounded Coffee"
+                        Packaging = "Grounded Coffee",
+                        Rating = 2
                     },
 
                     new CoffeeBean
@@ -99,7 +106,8 @@ namespace Coffee_Culture.Models
                         Roasting = "Clod Roast",
                         Price = 19.99M,
                         Description_Of_Product = "This coffee beans are spicy and flavourful. it tends to land on the warmer side of spices.",
-                        Packaging = "Grounded Coffee"
+                        Packaging = "Grounded Coffee",
+                        Rating = 3
                     },
 
                     new CoffeeBean
@@ -110,7 +118,8 @@ namespace Coffee_Culture.Models
                         Roasting = "Pot Roast",
                         Price = 16M,
                         Description_Of_Product = "This cultivated on the slopes of hualalai and Mauna Loa in north and south Kona districts of the Bog island and Hawaii.",
-                        Packaging = "Powdered Coffee"
+                        Packaging = "Powdered Coffee",
+                        Rating = 1
                     },
 
                     new CoffeeBean
@@ -122,7 +131,8 @@ namespace Coffee_Culture.Models
                         Price = 13.19M,
                         Description_Of_Product = "This plants primarily consist of Arabica varieties leading to an overall higher quality of the beans from the" +
                         "regions.",
-                        Packaging = "Whole bean Coffee"
+                        Packaging = "Whole bean Coffee",
+                        Rating = 4
                     },
                      new CoffeeBean
                      {
@@ -133,7 +143,8 @@ namespace Coffee_Culture.Models
                          Price = 06.99M,
                          Description_Of_Product = "These are one of the oldest still in production. this beans are harvested and processed by hand not only" +
                          "this bean used for coffee but the shells are also used to make Ethiopian tea.",
-                         Packaging = "Grounded Coffee"
+                         Packaging = "Grounded Coffee", 
+                         Rating = 4
                      }
 
                 );

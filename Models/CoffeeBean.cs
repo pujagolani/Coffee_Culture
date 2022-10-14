@@ -20,5 +20,6 @@ namespace Coffee_Culture.Models
         public decimal Price { get; set; }
         public string Description_Of_Product { get; set; }
         public string Packaging { get; set; }
+        public int Rating { get; set; }
     }
 }

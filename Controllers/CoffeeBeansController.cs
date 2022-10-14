@@ -78,7 +78,7 @@ namespace Coffee_Culture.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Types_Of_Coffee,Manufacture_Date,Production_Country,Roasting,Price,Description_Of_Product,Packaging")] CoffeeBean coffeeBean)
+        public async Task<IActionResult> Create([Bind("Id,Types_Of_Coffee,Manufacture_Date,Production_Country,Roasting,Price,Description_Of_Product,Packaging,Rating")] CoffeeBean coffeeBean)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +110,7 @@ namespace Coffee_Culture.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Types_Of_Coffee,Manufacture_Date,Production_Country,Roasting,Price,Description_Of_Product,Packaging")] CoffeeBean coffeeBean)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Types_Of_Coffee,Manufacture_Date,Production_Country,Roasting,Price,Description_Of_Product,Packaging,Rating")] CoffeeBean coffeeBean)
         {
             if (id != coffeeBean.Id)
             {
