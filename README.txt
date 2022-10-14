@@ -50,3 +50,8 @@ push to github, commit all
 2022-10-13 8:21
 start building scafolding and i get error in building because i used wrong name in context file.
 after getting error i rename CoffeBeanContext to Coffe_cultureContext.
+commit to github
+error solved and rebuild again.
+again did scafolding and it is done.
+starting next step 8:40
+commit to github
