@@ -135,3 +135,12 @@ part-10 completed save it run it, sucessfully done.
 Started making AboutUs page, add aboutus in views/home
 trying to do css save it. run sucessfully.
 try to add image, not getting output.
+
+4:52 pm
+try to do images but i placed in wrong path later on i chaange it and move to wwwroot folder and it run sucessfully.
+download images from browser as per instruction tools (creative common licence)
+tested it.
+commit to github.
+
+4:55pm
+start finding content for aboutus page.
