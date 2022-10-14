@@ -133,4 +133,5 @@ part-10 completed save it run it, sucessfully done.
 
 12:54 pm
 Started making AboutUs page, add aboutus in views/home
-trying to do css save it.
+trying to do css save it. run sucessfully.
+try to add image, not getting output.
