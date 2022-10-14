@@ -78,6 +78,7 @@ now save, commit and run, lets see what happen!!
 get an error
 A database operation failed while processing the request.
 SqlException: Invalid object name 'CoffeeBean'.
+
 there is naming error , i checked in sql database server and rename it.
 lets test it....... changed the program.cs file
 tested it and done it runs.
@@ -85,16 +86,19 @@ tested sucessfully. done with the part-5
 commit to github
 12:01 am
 starting part6
+
 Added namespaces in model/Coffeebean.cs
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 Add new validations above datetime and above price field.
 part 6 completed.
 started Part7
+
 Add search
 update the index method inside coffeecontrollers.
 to add search string i set on types of coffee search.
 tested run sucessfully.
+
 Added search by roasting with adding class into model folder.
 getting errors in coffeeroastingvm.cs
 solved the errors (naming and variable declare are different that why i confused).
@@ -104,7 +108,23 @@ next update index.cshtml to search by roasting to the index view.
 commit to github.
 part-7 done run sucessfully run with drop down list of roasting.
 commit to github
+
 started Part-8 2:17am
 add rating property in CoffeeBean.cs file save it.
 update the coffeebeancontrollers in bind value, add rating in create and edit.
 Add Rating in seed data, Index.cshtml and movie.cs.
+
+2022-10-14 11:58
+getting error after adding rating property, very first time i did migration
+at that time i addedd coffee name in migration which was wrong that is why ihve got error.
+i deleted migration folder and also deleted dbo from sqlserver object,
+add migration again and update the database, error solved
+tested , run sucessfully.
+commit to git hub.
+
+12:05 Part-9 started validation 
+add validation on Types_Of-Coffee,
+Manufacture_date, production_country, Roasting, price
+Packaging and Rating.
+tested it, sucessfully run.
+commit to github
