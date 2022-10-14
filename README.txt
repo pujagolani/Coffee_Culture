@@ -1,9 +1,9 @@
 ﻿2022-10-10 10:27
 
 created by: Puja Golani
+Part-1
 purpose: Create a ASP.NET Core Web App for the project
 -using .NET Core 3.1
-
 -individual user account authentication
 
 first name of project is Coffee_Culture.
@@ -68,3 +68,10 @@ try to do migration but i get naming error in console than add -Context Applicat
 it run.
 
 commit to git hub
+
+test project success.
+change controller in layout.cshtml file to create link on Coffee_culture.
+change name in Coffee_culture.cs
+
+10:30 started find data for the seed data file, done with the database at 11:27.
+now save, commit and run, lets see what happen!!

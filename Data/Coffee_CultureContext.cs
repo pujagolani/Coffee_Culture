@@ -15,6 +15,6 @@ namespace Coffee_Culture.Data
         {
 
         }
-        public DbSet<CoffeeBean> Coffee { get; set; }
+        public DbSet<CoffeeBean> CoffeeBean { get; set; }
     }
 }
