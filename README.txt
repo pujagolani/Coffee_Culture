@@ -43,15 +43,28 @@ update that file and add namespaces.
 update the startup.cs and add code in startup.configureservices.
 
 review the appsettings.json file.
+
 rebuild the application and commit to github.
+
 push to github, commit all
+
 1:49am
 
 2022-10-13 8:21
+
 start building scafolding and i get error in building because i used wrong name in context file.
+
 after getting error i rename CoffeBeanContext to Coffe_cultureContext.
-commit to github
+commit to github.
+
 error solved and rebuild again.
+
 again did scafolding and it is done.
+
 starting next step 8:40
 commit to github
+
+try to do migration but i get naming error in console than add -Context ApplicationDbContext
+it run.
+
+commit to git hub
