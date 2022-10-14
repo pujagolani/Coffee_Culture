@@ -127,4 +127,10 @@ add validation on Types_Of-Coffee,
 Manufacture_date, production_country, Roasting, price
 Packaging and Rating.
 tested it, sucessfully run.
-commit to github
+commit to github.
+Part-10 started review the all files which mentioned
+part-10 completed save it run it, sucessfully done.
+
+12:54 pm
+Started making AboutUs page, add aboutus in views/home
+trying to do css save it.
