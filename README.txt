@@ -99,3 +99,6 @@ Added search by roasting with adding class into model folder.
 getting errors in coffeeroastingvm.cs
 solved the errors (naming and variable declare are different that why i confused).
 commit to github and tested.
+sucessfully run.
+next update index.cshtml to search by roasting to the index view.
+commit to github.

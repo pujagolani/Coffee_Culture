@@ -1,5 +1,5 @@
-﻿@model IEnumerable<Coffee_Culture.Models.CoffeeBean>
-
+﻿
+@model Coffee_Culture.Models.CoffeeRoastingViewModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -11,7 +11,12 @@
 </p>
 <form asp-controller="CoffeeBeans" asp-action="Index" method="get">
     <p>
-        Types_of_Coffee: <input type="text" name="SearchString" />
+
+        <select asp-for="CoffeeRoasting" asp-items="Model.Roastings">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -19,25 +24,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Types_Of_Coffee)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Types_Of_Coffee)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Manufacture_Date)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Manufacture_Date)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Production_Country)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Production_Country)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Roasting)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Roasting)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description_Of_Product)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Description_Of_Product)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Packaging)
+                @Html.DisplayNameFor(model => model.CoffeeBeans[0].Packaging)
             </th>
             <th></th>
         </tr>
