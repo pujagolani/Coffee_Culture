@@ -19,10 +19,34 @@ namespace Coffee_Culture.Controllers
             _context = context;
         }
 
-        // GET: CoffeeBeans
-        public async Task<IActionResult> Index()
+        // GET: Coffees
+        public async Task<IActionResult> Index(string CoffeeRoasting, string searchString)
         {
-            return View(await _context.CoffeeBean.ToListAsync());
+            // Use LINQ to get list of Roasting.
+            IQueryable<string> roastingQuery = from m in _context.CoffeeBean
+                                            orderby m.Roasting
+                                            select m.Roasting;
+
+            var coffeeBeans = from m in _context.CoffeeBean
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                coffeeBeans = coffeeBeans.Where(s => s.Types_Of_Coffee.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(CoffeeRoasting))
+            {
+                coffeeBeans = coffeeBeans.Where(x => x.Roasting == CoffeeRoasting);
+            }
+
+            var CoffeeRoastingVM = new CoffeeRoastingViewModel
+            {
+                Roastings = new SelectList(await roastingQuery.Distinct().ToListAsync()),
+                CoffeeBeans = await coffeeBeans.ToListAsync()
+            };
+
+            return View(CoffeeRoastingVM);
         }
 
         // GET: CoffeeBeans/Details/5
