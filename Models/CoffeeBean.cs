@@ -10,6 +10,8 @@ namespace Coffee_Culture.Models
     public class CoffeeBean
     {
         public int Id { get; set; }
+        [StringLength(60, MinimumLength = 3)]
+        [Required]
         public string Types_Of_Coffee { get; set; }
         [Display(Name = "Manufacture_Date")]
         [DataType(DataType.Date)]
