@@ -79,8 +79,7 @@ namespace Coffee_Culture.Models
                         Production_Country = "Tanzania",
                         Roasting = "Tri-tip Roast",
                         Price = 11.99M,
-                        Description_Of_Product = "This Coffee grown in Tanzania, this coffee is a full bodied coffee with a chocolatry aroma and" +
-                        "a Wine-like finish.",
+                        Description_Of_Product = "This Coffee grown in Tanzania, this coffee is a full bodied coffee with a chocolatry aroma and a Wine-like finish.",
                         Packaging = "Powdered Coffee",
                         Rating = 3
                     },
@@ -92,8 +91,7 @@ namespace Coffee_Culture.Models
                         Production_Country = "Indonesia",
                         Roasting = "Rib Roast",
                         Price = 7.99M,
-                        Description_Of_Product = "Mocha java is the World's oldest coffee blend, combining two of the best premium coffee beans with complementary" +
-                        "tasting type.",
+                        Description_Of_Product = "Mocha java is the World's oldest coffee blend, combining two of the best premium coffee beans with complementary tasting type.",
                         Packaging = "Grounded Coffee",
                         Rating = 2
                     },
@@ -129,8 +127,7 @@ namespace Coffee_Culture.Models
                         Production_Country = "West African",
                         Roasting = "Dark Roast",
                         Price = 13.19M,
-                        Description_Of_Product = "This plants primarily consist of Arabica varieties leading to an overall higher quality of the beans from the" +
-                        "regions.",
+                        Description_Of_Product = "This plants primarily consist of Arabica varieties leading to an overall higher quality of the beans from the regions.",
                         Packaging = "Whole bean Coffee",
                         Rating = 4
                     },

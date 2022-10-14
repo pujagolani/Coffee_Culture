@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffee_Culture.Migrations
 {
     [DbContext(typeof(Coffee_CultureContext))]
-    [Migration("20221014014209_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20221014091754_Add-Migration AddColumnRating -Context Coffee_CultureContext")]
+    partial class AddMigrationAddColumnRatingContextCoffee_CultureContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -43,6 +43,9 @@ namespace Coffee_Culture.Migrations
                     b.Property<string>("Production_Country")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
                     b.Property<string>("Roasting")
                         .HasColumnType("nvarchar(max)");
 
@@ -51,7 +54,7 @@ namespace Coffee_Culture.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Coffee");
+                    b.ToTable("CoffeeBean");
                 });
 #pragma warning restore 612, 618
         }
