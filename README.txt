@@ -102,3 +102,5 @@ commit to github and tested.
 sucessfully run.
 next update index.cshtml to search by roasting to the index view.
 commit to github.
+part-7 done run sucessfully run with drop down list of roasting.
+commit to github
