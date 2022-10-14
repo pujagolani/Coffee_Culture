@@ -1,0 +1,11 @@
+﻿body {
+    background-image: linear-gradient(#bbf4ef, rgb(0 0 0 / 0.41), rgb(217 240 162 / 0.59));
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+header{
+    text-align:center;
+}

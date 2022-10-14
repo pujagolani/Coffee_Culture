@@ -144,3 +144,8 @@ commit to github.
 
 4:55pm
 start finding content for aboutus page.
+adding content for the company.
+done with the content.
+Adding images. and test the file, lets see what happen.
+hope i dont get an error....
+
