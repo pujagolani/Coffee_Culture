@@ -136,7 +136,7 @@ namespace Coffee_Culture.Models
                          Packaging = "Grounded Coffee"
                      }
 
-                    );
+                );
                 context.SaveChanges();
             }
         }

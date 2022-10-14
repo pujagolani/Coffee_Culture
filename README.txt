@@ -75,3 +75,13 @@ change name in Coffee_culture.cs
 
 10:30 started find data for the seed data file, done with the database at 11:27.
 now save, commit and run, lets see what happen!!
+get an error
+A database operation failed while processing the request.
+SqlException: Invalid object name 'CoffeeBean'.
+there is naming error , i checked in sql database server and rename it.
+lets test it....... changed the program.cs file
+tested it and done it runs.
+tested sucessfully. done with the part-5
+commit to github
+12:01 am
+starting part6

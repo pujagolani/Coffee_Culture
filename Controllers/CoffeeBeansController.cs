@@ -22,7 +22,7 @@ namespace Coffee_Culture.Controllers
         // GET: CoffeeBeans
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Coffee.ToListAsync());
+            return View(await _context.CoffeeBean.ToListAsync());
         }
 
         // GET: CoffeeBeans/Details/5
@@ -33,7 +33,7 @@ namespace Coffee_Culture.Controllers
                 return NotFound();
             }
 
-            var coffeeBean = await _context.Coffee
+            var coffeeBean = await _context.CoffeeBean
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (coffeeBean == null)
             {
@@ -73,7 +73,7 @@ namespace Coffee_Culture.Controllers
                 return NotFound();
             }
 
-            var coffeeBean = await _context.Coffee.FindAsync(id);
+            var coffeeBean = await _context.CoffeeBean.FindAsync(id);
             if (coffeeBean == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace Coffee_Culture.Controllers
                 return NotFound();
             }
 
-            var coffeeBean = await _context.Coffee
+            var coffeeBean = await _context.CoffeeBean
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (coffeeBean == null)
             {
@@ -139,15 +139,15 @@ namespace Coffee_Culture.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var coffeeBean = await _context.Coffee.FindAsync(id);
-            _context.Coffee.Remove(coffeeBean);
+            var coffeeBean = await _context.CoffeeBean.FindAsync(id);
+            _context.CoffeeBean.Remove(coffeeBean);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CoffeeBeanExists(int id)
         {
-            return _context.Coffee.Any(e => e.Id == id);
+            return _context.CoffeeBean.Any(e => e.Id == id);
         }
     }
 }
