@@ -4,14 +4,16 @@ using Coffee_Culture.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Coffee_Culture.Migrations
 {
     [DbContext(typeof(Coffee_CultureContext))]
-    partial class Coffee_CultureContextModelSnapshot : ModelSnapshot
+    [Migration("20221017041516_Rating")]
+    partial class Rating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -149,3 +149,18 @@ done with the content.
 Adding images. and test the file, lets see what happen.
 hope i dont get an error....
 
+2022-10-16 10:44
+i did not get error and tested sucessfully.
+started working on css, setting iamges and content,
+change font color, font size and its properties.
+added different types of style on text.
+
+12:17
+
+i forget to add decimal in rating field so , i deleted rating migration and add decimal,
+in cs file and edit seed file than add migration and run it again,
+upadte the database and done .
+rebuild the application and try to run lets see what happen!!
+run sucessfully..........
+finally done . commit to git hub
+last step is still on his wayyyyyy.(which is publish...............................)

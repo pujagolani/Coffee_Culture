@@ -41,6 +41,8 @@ namespace Coffee_Culture.Models
         public string Packaging { get; set; }
 
         [Range(1, 5)]
-        public int Rating { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal Rating { get; set; }
+
     }
 }
